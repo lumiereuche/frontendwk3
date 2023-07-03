@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form lesson</title>
+</head>
+<body>
+     <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <ul>
+                <li>
+                    <label for="full">full name</label>
+                    <input type="text" name="full" id="full" placeholder="full name">
+                </li>
+
+                <li>
+                    <label for="password">password</label>
+                    <input type="text" name="password" id="password" placeholder="password">
+                </li>
+
+
+                <li>
+                    <label for="Email">Email</label>
+                    <input type="text" name="Email" id="Email" placeholder="Email">
+                </li>
+
+
+                <li>
+                    <label for="Place of birth">Place of birth</label>
+                    <input type="text" name="place of birth" id="Place of birth" placeholder="Place of birth">
+                </li>
+
+
+                <li>
+                    <label for="tel">phone number</label>
+                    <input type="tel" name="phone number" id="tel" placeholder="phone number">
+                </li>
+
+
+                <li>
+                    Gender <br>
+                    <label for="male">male</label>
+                    <input type="radio" name="Gender" id="male">
+
+                    <label for="female">female</label>
+                    <input type="radio" name="Gender" id="female">
+                </li>
+
+
+                <li>
+                     <label for="home address">home address</label>
+                     <input type="text" name="home address" id="home address" placeholder="address">
+                </li>
+
+
+                <li>
+                    STATUS <br>
+
+                    <label for="married">married</label>
+                    <input type="radio" name="status" id="married">
+
+                    <label for="single">single</label>
+                    <input type="radio" name="status" id="single">
+
+                    <label for="divorced">divorced</label>
+                    <input type="radio" name="status" id="divorced">
+
+                </li>
+            </ul>
+
+        
+        </fieldset>
+        <fieldset>
+            <legend>EMERGENCY CONTACT DETAILS</legend>
+            <ul>
+                <li>
+                    <label for="contact name">contact name</label>
+                     <input type="text" name="contact name" id="contact name" placeholder="contact name">
+                    </li>
+
+                <li>
+                    <label for="home number">home number</label>
+                    <input type="text" name="home number" id="home number" placeholder="home number">
+                </li>
+
+                <li>
+                    <label for="Relationship">Relationship</label>
+                    <input type="text" name="Relationship" id="Relationship" placeholder="Relationship">
+                 </li>
+                <li>
+                    <label for="state of origin">state of origin</label>
+                    <select name="" id="">
+                        <optgroup label="south west zone">
+                            <option value="ON">ONDO</option>
+                            <option value="OS" selected>OSUN</option>
+                        </optgroup>
+                        <optgroup label="south east zone">
+                            <option value="AB">ABIA</option>
+                            <option value="AN">ANAMBRA</option>
+                        </optgroup>
+                        <optgroup label="south south zone">
+                            <option value="DE">DELTA</option>
+                            <option value="ED">EDO</option>
+                        </optgroup>
+                        <optgroup label="North central zone">
+                            <option value="BE">BENUE</option>
+                            <option value="KO">KOGI</option>
+                        </optgroup>
+                        <optgroup label="North West zone">
+                            <option value="KA">KADUNA</option>
+                            <option value="KA">KANO</option>
+                        </optgroup>
+                        <optgroup label="North East zone">
+                            <option value="YO">YOBE</option>
+                            <option value="GO">GOMBE</option>
+                        </optgroup>
+                    </select>
+                </li>
+            </ul>
+            
+        </fieldset>
+
+        <FIeldset>
+            <LEGend>OFFICE USE ONLY</LEGend>
+            <ul>
+                <li>
+                    <label for="date">date</label>
+                    <input type="date" name="date" id="date">
+                </li>
+
+                <li>
+                    <label for="m-no">membership number</label>
+                    <input type="text" name="membership number" id="m-no">
+                    
+                </li>
+
+                <li><label for="membership">Membership type</label>
+                    <select name="membership" id="membership">
+                    <optgroup label="membership type">
+                     <option value="FU">full membership</option>
+                        <option value="PT">part time</option>
+                    </optgroup>
+                </select>
+                </li>
+
+                <li><label for="pay-typ">Payment Type</label>
+                    <select name="pay-typ" id="pay-typ">
+                    <option value="crd-pay">Card Payment</option>
+                    <option value="crd-pay">Bank Transfer</option>
+                    <option value="crd-pay">Cheque</option>
+                    </optgroup>
+                </select>
+                </li>
+                <li>
+                    <label for="staff name">staff name</label>
+                    <input type="text" name="staff name" id="staff name">
+                </li>
+                <li>
+                    <label for="staff signature">staff signature</label>
+                    <input type="text" name="staff signature" id="staff signature">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="submit" value="send">
+                </li>
+            </ul>
+
+        </FIeldset>
+     </form>
+</body>
+</html>
